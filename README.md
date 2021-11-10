@@ -1,4 +1,4 @@
-
+[![Discord](https://discordapp.com/api/guilds/889330423623204905/embed.png)](https://discord.gg/wjWJwJB)
 
 ### 📥 Installation
 
