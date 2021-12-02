@@ -72,7 +72,11 @@ w-filters, see filters.
 ping, see the bot latency.
 help, see the list of available commands.
 debug, see number of voice connections.
+botinfo, see the bot informations.
 ```
 
-### 🏓 Utilities (to change the code)
+### 🏓 Utilities 
 
+```
+eval, For Developer only.
+```
