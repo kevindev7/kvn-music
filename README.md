@@ -25,31 +25,31 @@ For the bot to be able to start, please complete the file with your credentials 
 
 ```js
 emojis: {
-    off: ':x:',
-    error: ':warning:',
-    queue: ':bar_chart:',
-    music: ':musical_note:',
-    success: ':white_check_mark:',
-}
-```
+        off: ':x:',
+        error: ':warning:',
+        queue: ':card_box:',
+        music: ':musical_note:',
+        success: ':white_check_mark:',
+    },
 
-- For configuration
-
-```js
-discord: {
-    token: 'TOKEN',
-    prefix: 'PREFIX',
-    activity: 'ACTIVITY',
-}
+    discord: {
+        token: '',
+        prefix: 'PREFIX HERE',
+        activity: '[PREFIX]help | ',
+        developer: 'YOUR USER ID',
+        permissions: 'BOT_PERMISSIONS'
+    },
 ```
 
 - `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section.
 - `prefix`, the prefix that will be set to use the bot.
 - `activity`, the activity of the bot. `[joined]` Servers.
+- `developer`, the developer of the bot. place your USER_ID!
+- `permissions`, the bot permissions for the music bot.
 
 In the console, type `npm install` to install all dependencies.
 
-- To start the bot :
+- To start the bot:
 
 ```
 #With Node
