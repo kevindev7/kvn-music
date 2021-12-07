@@ -1,10 +1,10 @@
 module.exports = {
     name: 'debug',
-    aliases: [],
+    aliases: ['status'],
     category: 'Infos',
     utilisation: '{prefix}debug',
 
     execute(client, message) {
-        message.channel.send(`${client.emotes.success} - ${client.user.username} connected in **${client.voice.connections.size}** channels!`);
+        message.channel.send(`\`\`\`Connected : ${client.voice.connections.size} channels  \nGuilds on : ${client.guilds.cache.size} servers \nBot Users : ${client.users.cache.size} users \nBot Status: Online \nError code: SOON™\`\`\` `);
     },
 };
