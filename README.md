@@ -1,6 +1,21 @@
-[![Discord](https://discordapp.com/api/guilds/889330423623204905/embed.png)](https://discord.gg/wjWJwJB)
+### Some chill music bot with free filter features!
 
-### 📥 Installation
+Filters example like: 8D, Gate, haas, Phaser, Treble, Vibrato, Reverse, Karaoke, Flanger, Mcompand, Pulsator, SubBoost, BassBoost, Vaporwave, Nightcore, Normalizer, Surrounding.
+
+[![Discord](https://img.shields.io/discord/889330423623204905?color=5865F2&logo=discord&logoColor=white)](https://discord.gg/wjWJwJB) [![Npm](https://img.shields.io/npm/v/discord-player.svg?maxAge=3600)](https://www.npmjs.com/package/distube)
+
+### Commands
+
+**Bot** 
+`debug`, `ping`, `botinfo`
+
+**Music**
+`clear-queue`, `filter`, `listfilters`, `loop`, `nowplaying`, `pause`, `play`, `queue`, `resume`, `search`, `shuffle`, `skip`, `stop`, `volume`
+
+**Filters**
+`8D`, `gate`, `haas`, `phaser`, `treble`, `tremolo`, `vibrato`, `reverse`, `karaoke`, `flanger`, `mcompand`, `pulsator`, `subboost`, `bassboost`, `vaporwave`, `nightcore`, `normalizer`, `surrounding`, `fadein`, `mono`
+
+### Installation
 
 Well, let's start by downloading the code.
 Go to the folder `config` then the file `bot.js`.
@@ -45,38 +60,9 @@ npm start #Indicated in package.json
 pm2 start index.js --name "MusicBot"
 ```
 
-All you have to do is turn on your bot !
+All you have to do is turn on your bot!
 
-### 🎵 Music commands
-
-```
-play <name/URL>, play music in a voice channel.
-search <name>, open a panel to choose a music and then play it.
-pause, pause the current music.
-resume, puts the current music back on.
-queue, see the next songs.
-clear-queue, remove music in the queue.
-shuffle, to mix the queue.
-nowplaying, see music in progress.
-loop, to enable or disable the repeat function.
-volume <1 - 100>, change the volume.
-skip, skip to next music.
-stop, stop all music.
-filter <filter>, add / remove filter.
-w-filters, see filters.
-```
-
-### 💡 General commands
-
-```
-ping, see the bot latency.
-help, see the list of available commands.
-debug, see number of voice connections.
-botinfo, see the bot informations.
-```
-
-### 🏓 Utilities 
-
-```
-eval, For Developer only.
-```
+### Thanks
+Thank you for coming here, don't forget to invite, vote, and support K V N Music!
+We are sorry if there are words that are not pleasing.
+Stay save & Stay healty guys!
